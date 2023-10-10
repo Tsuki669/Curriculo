@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: black;
+    height: 10000px;
+}
+
+
+
+header {
+    position: fixed;
+    width:  100%;
+    background-color: #000;
+}
+header ul li{
+    
+    text-decoration: none;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+header ul li a {
+    text-decoration: none;
+    color: aquamarine;
+}
+header ul li a:hover {
+    color: aqua;
+}
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+
+nav {
+    display: block;
+}
+.my {
+    display: flex;
+    margin-right: 20vh;
+   
+}
+.my-img {
+    display: inline-block;
+}
+.my-text {
+    margin-top: 230px;
+    margin-left: 100px;
+  display: block;
+}
+.my-text h1{
+    color: aqua;
+    font-weight: bold;
+    font-size: 30px;
+}
+.my-text h2{
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+}
+.my-img img {
+    margin-top: 130px;
+    margin-left: 20vh;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    border: 1px solid #fff;
+}
+
+
+
+
+
+
+.itens-home-area {
+    display: flex;
+    margin-left: 20vh;
+    margin-right: 20vh;
+    flex-wrap: wrap;
+}
+.itens-home {
+    flex: 1;
+   margin: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    color: aquamarine;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.itens-home:hover {
+   border: 2px solid aquamarine;
+   color: #fff;
+}
+
+.itens-home h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.itens-home h2 {
+    font-size: 15px;
+    color: #fff;
+}
+.itens-home ul li {
+    font-size: 15px;
+    color: #fff;
+}
+.itens-home ul li h1 {
+    color: aquamarine;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
